@@ -1,0 +1,13 @@
+.DS_Store
+*.gcda
+*.gcno
+*.gcov
+*.plist
+*.tmp
+allocator-tests
+Allocator.bbprojectd
+Doxyfile
+Icon?
+latex
+RunAllocator
+TestAllocator

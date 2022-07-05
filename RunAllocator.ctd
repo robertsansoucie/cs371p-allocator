@@ -1,0 +1,73 @@
+INT(1, 100, t) NEWLINE
+REP(t)
+  NEWLINE
+  SET(total = 124)
+  SET(allocated = 0)
+  SET(blocks = 1)
+  SET(heap[1] = 992)
+  WHILEI(n, MATCH("-1234567890"))
+    INT(-allocated, total, i)
+    ASSERT(i != 0)
+    IF(i > 0)
+      ASSERT(i <= total)
+      SET(allocated = allocated + 1)
+      SET(index = 1)
+      WHILE(index < blocks && heap[index] < i*8)
+        SET(index = index + 1)
+      END
+      ASSERT(index <= blocks)
+      ASSERT(heap[index] >= i*8)
+      IF(heap[index] < 8 + (i+1)*8)
+        SET(heap[index] = -heap[index])
+      ELSE
+        SET(left = i*8)
+        SET(right = heap[index] - left - 8)
+        SET(heap[index] = -left)
+        SET(newindex = blocks)
+        WHILE(newindex > index)
+          SET(heap[newindex+1] = heap[newindex])
+          SET(newindex = newindex - 1)
+        END
+        SET(heap[index+1] = right)
+        SET(blocks = blocks + 1)
+      END
+    ELSE
+      ASSERT(i >= -allocated)
+      SET(allocated = allocated - 1)
+      SET(index = 1)
+      WHILE(index < blocks && i < 0)
+        IF(heap[index] < 0)
+          SET(i = i + 1)
+        END
+        IF(i != 0)
+          SET(index = index + 1)
+        END
+      END
+      SET(heap[index] = -heap[index])
+      IF(index != 1 && heap[index-1] > 0)
+        SET(heap[index-1] = heap[index-1] + heap[index] + 8)
+        SET(newindex = index)
+        WHILE(newindex < blocks)
+          SET(heap[newindex] = heap[newindex+1])
+          SET(newindex = newindex + 1)
+        END
+        SET(index = index - 1)
+        SET(blocks = blocks - 1)
+      END
+      IF(index != blocks && heap[index+1] > 0)
+        SET(heap[index] = heap[index] + heap[index+1] + 8)
+        SET(newindex = index + 1)
+        WHILE(newindex < blocks)
+          SET(heap[newindex] = heap[newindex + 1])
+          SET(newindex = newindex + 1)
+        END
+        SET(blocks = blocks - 1)
+      END
+    END
+    IF(!ISEOF)
+      NEWLINE
+    END
+  END
+  ASSERT(n > 0)
+  ASSERT(n <= 1000)
+END

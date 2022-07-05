@@ -1,0 +1,65 @@
+commit b3c06b23bf78efe460fad7fc10c74c4459f00910
+Author: Robert San Soucie <robertss@cs.utexas.edu>
+Date:   Wed Mar 17 21:37:10 2021 -0500
+
+    Run doxygen
+
+commit 0b3d48ac254ac8befdecff194565938772093429
+Author: Robert San Soucie <robertss@cs.utexas.edu>
+Date:   Wed Mar 17 21:24:05 2021 -0500
+
+    Add documentation to Allocator.hpp and run astyle
+
+commit 0b364538e57ed6d6100b7db42730fd27ff61e37d
+Author: Robert San Soucie <robertss@cs.utexas.edu>
+Date:   Wed Mar 17 21:14:33 2021 -0500
+
+    Add in unit tests
+
+commit 655942ae4fbccc2313fafb2455ef289ee16f2a68
+Author: Robert San Soucie <robertss@cs.utexas.edu>
+Date:   Tue Mar 16 15:29:50 2021 -0500
+
+    Update valid method in Allocator
+
+commit 23444936a57566c04b9c09efd3099d82640e2cba
+Author: Robert San Soucie <robertss@cs.utexas.edu>
+Date:   Mon Mar 15 14:04:15 2021 -0500
+
+    Get all the hackerrank tests passed
+
+commit 873d44788ac8c831bb6e2a2a0f6fce4b7bdacd93
+Author: Robert San Soucie <robertss@cs.utexas.edu>
+Date:   Sun Mar 14 17:44:17 2021 -0500
+
+    Fix problem with deallocate
+
+commit 1505c89f9bd62b2fb90f28fc21f4d06d33f92323
+Author: Robert San Soucie <robertss@cs.utexas.edu>
+Date:   Sun Mar 14 17:23:42 2021 -0500
+
+    Almost passing all of the hacker rank tests
+
+commit fc987a357ed22de39f9ad7bdd75eb2f98f65c44d
+Author: Robert San Soucie <robertss@cs.utexas.edu>
+Date:   Fri Mar 12 16:11:30 2021 -0600
+
+    Fix broken tests and fix the allocator in order to pass them
+
+commit a0db24c8645d6b5ac86660311b5db112f57bebc7
+Author: Robert San Soucie <robertss@cs.utexas.edu>
+Date:   Tue Mar 9 16:19:45 2021 -0600
+
+    Uncomment tests in TestAllocator.cpp
+
+commit 6953b0bb127f77e51859238e597d4f28d16018dc
+Author: Glenn Downing <downing@cs.utexas.edu>
+Date:   Mon Mar 8 10:30:38 2021 -0600
+
+    another commit
+
+commit 6c5b9121214f5d48bdff232a220e075b27fa08b5
+Author: Glenn Downing <downing@cs.utexas.edu>
+Date:   Mon Mar 8 10:23:44 2021 -0600
+
+    first commit

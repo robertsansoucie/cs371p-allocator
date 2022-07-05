@@ -1,0 +1,8 @@
+var searchData=
+[
+  ['operator_2a',['operator*',['../classmy__allocator_1_1iterator.html#ac7592b0a5d60995adbe77c3b9c99515c',1,'my_allocator::iterator::operator*()'],['../classmy__allocator_1_1const__iterator.html#a2eaeef7c7da2f1aa61e70480f1de9d5d',1,'my_allocator::const_iterator::operator*()']]],
+  ['operator_2b_2b',['operator++',['../classmy__allocator_1_1iterator.html#ae9e63b30286f98ffb8a67321a30b0c28',1,'my_allocator::iterator::operator++()'],['../classmy__allocator_1_1iterator.html#a02ac719f3b5e3d91c8c606e15da7474a',1,'my_allocator::iterator::operator++(int)'],['../classmy__allocator_1_1const__iterator.html#afb067230728c06b08ea3ffde957bb6db',1,'my_allocator::const_iterator::operator++()'],['../classmy__allocator_1_1const__iterator.html#a327908ed9214c67ae1b75cd04ef71b55',1,'my_allocator::const_iterator::operator++(int)']]],
+  ['operator_2d_2d',['operator--',['../classmy__allocator_1_1iterator.html#a42c96ccb249813564612145924a44d7c',1,'my_allocator::iterator::operator--()'],['../classmy__allocator_1_1iterator.html#a980cd33a5033330c03ee340a15c35b69',1,'my_allocator::iterator::operator--(int)'],['../classmy__allocator_1_1const__iterator.html#aec4d4d77dbf9674c61e15383495d1d09',1,'my_allocator::const_iterator::operator--()'],['../classmy__allocator_1_1const__iterator.html#ac676d8a01ff8e2afaaaad55967aeac9c',1,'my_allocator::const_iterator::operator--(int)']]],
+  ['operator_3d',['operator=',['../classmy__allocator.html#ab514bf010fc3bb3cd3787358f6443357',1,'my_allocator']]],
+  ['operator_5b_5d',['operator[]',['../classmy__allocator.html#afce70a1babca1d1ed59b595cb44818cf',1,'my_allocator::operator[](int i)'],['../classmy__allocator.html#a449c644c9fe5f4e832443fac06716c94',1,'my_allocator::operator[](int i) const']]]
+];
