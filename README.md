@@ -1,19 +1,3 @@
 # CS371p: Object-Oriented Programming Allocator Repo
 
-* Name: Robert San Soucie
-
-* EID: RLS4822
-
-* GitLab ID: robertsansoucie
-
-* HackerRank ID: robertsansoucie
-
-* Git SHA: b6e6cf4a99ed53b5b69361e08b1dc0b860e83dad
-
-* GitLab Pipelines: https://gitlab.com/robertsansoucie/cs371p-allocator/-/pipelines
-
-* Estimated completion time: 12
-
-* Actual completion time: 8
-
-* Comments:
+This is a project to build an efficient memory allocator. The main file is "Allocator.hpp" and there is an example of sample input and output in RunAllocator.in and RunAllocator.out. For reference, on the input, positive numbers within a given test case mean to allocate a block of that size in the first available location, and negative numbers (-n) mean to deallocate the nth allocated block. Hopefully that makes sense.
